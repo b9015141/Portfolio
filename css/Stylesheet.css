@@ -81,17 +81,17 @@ body{
   
   /*       styling social media logos            */
   .fa {
-    padding: 20px;
+    padding: 15px;
     font-size: 30px;
-    width: 30px;
+    width: 45px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    border-radius: 50%;
+    border-radius: 60%;
   }
   
   .fa:hover {
-      opacity: 0.7;
+    opacity: 0.8;
   }
   
   .fa-github {
@@ -258,6 +258,7 @@ body{
     color: white;
     font-size: 16px;
     padding: 5px 0px 5px 0px;
+    margin-top: 5%;
     margin-left: 15%;
     margin-right: 15%;
   }

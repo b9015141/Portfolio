@@ -5,6 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/Stylesheet.css">
+
+  <!-- link for social media logos-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 </head>
 
 <body>
@@ -23,25 +27,26 @@
           </div>
 
   <div class="container-form">
-              <div class="app-form">
+        <form>
+          <div class="app-form">
             <div class="app-form-group">
             <form action="contact-form-handler.php " method="post">
-              <input class="app-form-control" type="name" placeholder="NAME" required>
+              <input class="app-form-control" type="name" id="inputEmail" placeholder="NAME" required>
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" type="email" placeholder="EMAIL" required>
+              <input class="app-form-control" type="email" id="inputEmail" placeholder="EMAIL" required>
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" type="number" placeholder="CONTACT NO (optional)">
+              <input class="app-form-control" type="number" id="inputContactNo" placeholder="CONTACT NO (optional)">
             </div>
             <div class="app-form-group message">
-              <input class="app-form-control" type="message" placeholder="MESSAGE" required>
+              <input class="app-form-control" type="message" id="inputMessage" placeholder="MESSAGE" required>
             </div>
             <div class="app-form-group buttons">
               <button class="app-form-button">SEND</button>
             </div>
           </div>
-            </form>
+        </form>
     <br>
     <br>
 
