@@ -2,13 +2,13 @@ body{
     margin: 0%;
     padding:2% 10% 2% 10%;
     background-color: #fab1a0;
-    background-size: 80%;
+    /*background-size: 80%;*/
   }
   
   #header{
     text-align: center;
     color: black;
-    size: 20px;
+    size: 40px;
     text-decoration-style: solid;
     border:2px white;
     padding-bottom: 5%;
@@ -80,6 +80,13 @@ body{
   }
   
   /*       styling social media logos            */
+
+  .logos{
+    margin-top: 5%;
+    margin-left: 5%;
+    
+  }
+
   .fa {
     padding: 15px;
     font-size: 30px;
@@ -250,6 +257,17 @@ body{
     .screen-body-item {
       padding: 0;
     }
+  }
+
+  /*Displaying Projects */
+
+  .news {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .newsItem {
+    flex-basis: 50%;
+    padding: 0 10px;
   }
   
   footer{
