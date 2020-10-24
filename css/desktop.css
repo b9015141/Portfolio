@@ -1,0 +1,38 @@
+/* CSS Document */
+.container {
+  max-width: 1366px;
+  /* 1366x768	16:9*/
+  margin: auto;
+}
+
+body {
+  margin: 2% 5% 0% 5%;
+}
+
+.header{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.box{
+  width: 600px;
+}
+
+.btn{
+  font-size: 18px;
+  padding: 20px;
+}
+
+.profileImg{
+  width: 350px;
+  height: 400px;
+  float: left;
+  margin-left: 2%;
+  padding-right: 3%;
+  margin-bottom: 3%;
+  padding-bottom: 3%;
+}
+
+.profiletxt{
+  font-size: 18px;
+}

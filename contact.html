@@ -4,7 +4,13 @@
   <title>Soraya's Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/Stylesheet.css">
+
+  <!-- Mobile Phone Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/mobile.css">
+
+  <!--Desktop Stylesheet-->
+  <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width : 720px)"/>
+
 
   <!-- link for social media logos-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,19 +18,28 @@
 </head>
 
 <body>
-  <nav>
-    <button class="btn"><a href="index.html">WHO IS SORAYA?!</a></button>
-    <button class="btn"><a href="projects.html">PROJECTS</a></button>
-    <button class="btn"><a href="myJourney.html">MY JOURNEY</a></button>  
-    <button class="btn"><a href="contact.html">GET IN TOUCH</a></button>
-  </nav>
+      <div class="mainNav">
+        <nav>
+          <button class="btn"><a href="index.html">HOME</a></button>
+          <button class="btn"><a href="projects.html">PROJECTS</a></button>
+          <button class="btn"><a href="#">ON BOARD</a></button>
+          <button class="btn"><a href="myJourney.html">MY JOURNEY</a></button>
+          <button class="btn"><a href="contact.html">GET IN TOUCH</a></button>
+         </nav>
+      </div>
 <br>
 <br>
-
-<div class="form-title">
-            <span>CONTACT</span>
-            <span>ME</span>
-          </div>
+<section class="mainContent">
+  <div class="informativeMessage">
+    <p>
+      Currently the contact form is not working as intended however you can still send me a message by email! 
+      Sorry for any inconvinience caused!
+    </p>
+  </div>
+ <div class="form-title">
+        <span>CONTACT</span>
+        <span>ME</span>
+  </div>
 
   <div class="container-form">
           <div class="app-form">
@@ -46,22 +61,22 @@
             </div>
           </div>
         </form>
-    <br>
-    <br>
+
+        <br>
+        <br>
 
     <!-- Social Media links -->
-    <div>
+    <div class="socialMedia">
       <a href="https://github.com/b9015141?tab=repositories" class="fa fa-github"></a>
       <a href="https://www.linkedin.com/in/soraya-charef-a9619a196/" class="fa fa-linkedin"></a>
       <a href="https://www.instagram.com/soraya_chrf/" class="fa fa-instagram"></a>
       <a href="https://twitter.com/soraya_charef" class="fa fa-twitter"></a>   
-   </div>
-  
+    </div>
+  </div>
+</section>
 
 </body>
-
-<footer>
-<h3>SORAYA CHAREF - PORTFOLIO 2020</h3>
-</footer>
-
+  <footer>
+    <h3>SORAYA CHAREF - PORTFOLIO 2020</h3>
+  </footer>
 </html>
