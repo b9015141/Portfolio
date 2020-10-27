@@ -72,7 +72,7 @@ nav a{
 
 .socialMedia{
   margin-top: 5%;
-  margin-left: 5%;
+  margin-left: 10%;
   
 }
 
@@ -262,17 +262,17 @@ nav a{
 }
 .projectItem {
   flex-basis: 50%;
-  padding: 0 10px;
+  padding: 0 15px;
 }
 
-.projectSource a{
-  margin-bottom: 5%;
+.projects a{
   text-decoration: none;
 }
 
 .projectPhoto img{
-  height: 50%;
-  width: 50%;
+  margin: 4% 0% 0% 0%;
+  height: 75%;
+  width: 75%;
 }
 
 footer{
