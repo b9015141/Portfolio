@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 2%;
   padding: 0;
   background-color: #f7c3b8;
 }
@@ -255,11 +255,12 @@ nav a{
 /*Displaying Projects */
 
 .projects{
-  margin-top: 2%;
-  display: flex;
-  flex-wrap: wrap;
+  margin: 2% 0% 2% 2%;
+  display: flexbox;
+  flex-flow: column;
   font-family: Verdana, sans-serif;
 }
+
 .projectItem {
   flex-basis: 50%;
   padding: 0 15px;
@@ -267,12 +268,13 @@ nav a{
 
 .projects a{
   text-decoration: none;
+  color: #fff;
 }
 
 .projectPhoto img{
-  margin: 4% 0% 0% 0%;
-  height: 75%;
-  width: 75%;
+  margin-top: 4%;
+  height: 30%;
+  width: 30%;
 }
 
 footer{
